@@ -1,0 +1,19 @@
+{
+  "day": 2,
+  "student_name": "Seshapriya D",
+  "github": "SeshapriyaDhamothran",
+  "lab1_scenario": "A",
+  "lab1_prompt": "You are the Samsung care expert Provide a reply for a customer's complaint Context: Battery complaint of a customers 3rd galaxy watch which is still in warantty Constraints: It should not provide a refund Tone: formal Output format: give a email rep",
+  "lab1_output_met_constraints": true,
+  "lab1_extra_scenarios_done": 1,
+  "lab2_problem": "Galaxy Buds distribution centre — shipment/hold/restock",
+  "lab2_naive_output_summary": "4,299 Galaxy Buds units are available for sale by the end of the day.\nReason:: Start with 4,200 units, send out 850 (leaving 3,350), hold back 6% of the remaining stock (201 units), leaving 3,149 available, then add the 1,150-unit restock for a final available inventory of 4,299 units.",
+  "lab2_cot_prompt": "1.Calculate the inventory remaining after the 850 units are shipped.\n2.Compute 6% of the remaining inventory and determine how many units are held back.\n3.Subtract the held-back units to find the number of units available before the restock.\n4.Add the 1,150 restocked units.\n5.Show each calculation clearly, then state the final number of Galaxy Buds available for sale by the end of the day.",
+  "lab2_cot_output_summary": "1.Inventory after shipments\nStarting inventory: 4,200\nUnits shipped: 850\n4,200 − 850 = 3,350 units remaining\n2.Units held back (6% of remaining inventory)\n6% of 3,350 = 3,350 × 0.06 = 201 units held back\n3.Units available before the restock\n3,350 − 201 = 3,149 units available\n4.Add the restocked units\nRestock: 1,150 units\n3,149 + 1,150 = 4,299 units available\nFinal answer: 4,299 Galaxy Buds are available for sale by the end of the day.",
+  "better_approach": "naive",
+  "stretch_done": false,
+  "stretch_react_prompt": "",
+  "tasks_completed": 6,
+  "tasks_total": 6,
+  "submitted_at": "2026-07-14T10:00:32.892Z"
+}
