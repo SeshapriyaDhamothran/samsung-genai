@@ -1,0 +1,52 @@
+{
+  "day": 4,
+  "student_name": "Seshapriya D",
+  "github": "SeshapriyaDhamothran",
+  "incidents": [
+    {
+      "id": "A",
+      "failure_type": "Hallucination",
+      "principle": "Reliability",
+      "justification": "The chatbot fabricated a non-existent discount policy and presented it as fact, producing inaccurate and unreliable information that caused financial and reputational harm."
+    },
+    {
+      "id": "B",
+      "failure_type": "Privacy Violation",
+      "principle": "Privacy",
+      "justification": "The assistant collected and stored employees' confidential messages without their knowledge, exposing sensitive client information and violating user privacy."
+    },
+    {
+      "id": "C",
+      "failure_type": "Deepfake/Misinformation",
+      "principle": "Safety",
+      "justification": "An AI-generated fake video spread false information, misleading the public and influencing the company's stock price before it was disproven."
+    },
+    {
+      "id": "D",
+      "failure_type": "Bias/Discrimination",
+      "principle": "Fairness",
+      "justification": "The screening tool indirectly discriminated against applicants from women's colleges, resulting in unfair hiring decisions despite gender not being an explicit input."
+    },
+    {
+      "id": "E",
+      "failure_type": "Lack of Human Oversight",
+      "principle": "Human Oversight",
+      "justification": "The moderation system's biased behavior went unchecked for weeks because no human monitored or reviewed its decisions until an external party identified the issue."
+    },
+    {
+      "id": "F",
+      "failure_type": "Security Breach",
+      "principle": "Security",
+      "justification": "Attackers misused AI voice-cloning to impersonate a company executive and fraudulently authorize a financial transfer, demonstrating a failure to protect against AI-enabled security threats."
+    }
+  ],
+  "justifications_written": 6,
+  "stretch_done": true,
+  "stretch_company": "Clearview AI",
+  "stretch_failure_type": "Privacy Violation",
+  "stretch_principle": "Privacy",
+  "stretch_notes": "Clearview AI built a facial recognition system by scraping billions of publicly available images from websites and social media without individuals' consent. The database was then marketed to law enforcement and other organizations, leading to widespread criticism and legal action over privacy and biometric data collection practices. Courts and regulators in multiple countries found the company's practices violated privacy laws.",
+  "tasks_completed": 6,
+  "tasks_total": 6,
+  "submitted_at": "2026-07-16T06:20:01.884Z"
+}
